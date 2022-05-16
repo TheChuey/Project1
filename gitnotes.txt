@@ -1,0 +1,19 @@
+git checkout -b  <name of branch>
+# Switched to a new branch <name of branch>
+
+git checkout master
+
+# if I type git status you can see that it shows 
+# that I've modified a file
+
+#I can add the ReadMe file and then I can commit it. 
+# So I'll say
+
+git add .
+git commit -m "Updated README" 
+
+
+git merge <name of branch>
+
+git push
+

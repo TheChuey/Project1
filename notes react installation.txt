@@ -1,0 +1,30 @@
+#Author Jesus Rodriguez
+#Create React App
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+**************************
+# install npm (node package manager)
+
+step 1
+npm install -g create-react-app
+step 2
+create-react-app <name of react project no capital letters>
+
+**************************
+
+react create 
+Install automatically
+Development Server
+webpack
+Babel
+much more...
+
+JSX -> babel --> run on any browswer
+
+**************************
+
+
+
