@@ -11,13 +11,15 @@ import profile3 from "./image/pic-3.jpg";
 const App = () => {
   return (
     <div className="ui comments">
-      <UserCard
-        name="San Diego"
-        date="9/3/2018"
-        text="Vacation"
-        description="Family Vacation"
-        picture={profile1}
-      />
+      <SingleComment>
+        <UserCard
+          name="San Diego"
+          date="9/3/2018"
+          text="Vacation"
+          description="Family Vacation"
+          picture={profile1}
+        />
+      </SingleComment>
       <UserCard
         name="Getty Museum"
         date="Sunday, ‎December ‎26, ‎2021,"

@@ -1,23 +1,32 @@
 import React from "react";
 
 const SingleComment = props => {
-  console.log(props);
   return (
-    <div className="comment">
-      <a href="/" className="avatar">
-        <img src={props.picture} style={{ width: "50%" }} alt="profile" />
-      </a>
+    <div className="ui card">
       <div className="content">
-        <a href="/" className="author">
-          {props.name}
-        </a>
-        <div className="metadata">
-          <span className="date">{props.date}</span>
-        </div>
-        <div className="text">{props.text}</div>
+        <div className="header"> {props.children} </div>
+        <div className="description"> A single Comment </div>
+      </div>
+      <div className="content">
+        <div>Notes: SingleComment encapsolates the usercard JSX Compoent</div>
       </div>
     </div>
   );
 };
 
 export default SingleComment;
+
+// const SingleComment = props => {
+//   return (
+//     <div className="ui card">
+//       <div className="content">
+//         <div className="header"> {props.children} </div>
+//         <div className="description"> A single Comment </div>
+//       </div>
+//       <div className="ui buttom buttom">
+//         <i className="add icon"> </i>
+//         Add Notes
+//       </div>
+//     </div>
+//   );
+// };
